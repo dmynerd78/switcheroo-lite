@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<releases>
+<release>
+	<id>1</id>
+	<name>The Legend of Zelda: Breath of the Wild</name>
+	<publisher>Nintendo</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,ru,ja</languages>
+	<group>BigBlueBox</group>
+	<imagesize>16</imagesize>
+	<serial>LA-H-AAAAA</serial>
+	<titleid>01007EF00011E000</titleid>
+	<imgcrc>5DD119C1</imgcrc>
+	<filename>bbb-h-aaaaap</filename>
+	<releasename>The.Legend.of.Zelda.Breath.of.the.Wild.PROPER.NSW-BigBlueBox</releasename>
+	<trimmedsize>14880118272</trimmedsize>
+	<firmware>1.0.0</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>2</id>
+	<name>Mario Kart 8 Deluxe [Rev 1.0.0]</name>
+	<publisher>Nintendo</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,nl,pt,ru,ja</languages>
+	<group>BigBlueBox</group>
+	<imagesize>8</imagesize>
+	<serial>LA-H-AABPA</serial>
+	<titleid>0100152000022000 (v0)</titleid>
+	<imgcrc>1912A1DF</imgcrc>
+	<filename>bbb-h-aabpap</filename>
+	<releasename>Mario.Kart.8.Deluxe.PROPER.NSW-BigBlueBox</releasename>
+	<trimmedsize>7672369152</trimmedsize>
+	<firmware>1.0.0</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>3</id>
+	<name>ARMS</name>
+	<publisher>Nintendo</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,nl,ru,ja</languages>
+	<group>BigBlueBox</group>
+	<imagesize>4</imagesize>
+	<serial>LA-H-AABQA</serial>
+	<titleid>01009B500007C000</titleid>
+	<imgcrc>11E06E5E</imgcrc>
+	<filename>bbb-h-aabqap</filename>
+	<releasename>ARMS.PROPER.NSW-BigBlueBox</releasename>
+	<trimmedsize>2787529728</trimmedsize>
+	<firmware>2.1.0</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>4</id>
+	<name>Has Been Heroes</name>
+	<publisher>Gamestop &amp; Gametrust</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es</languages>
+	<group>BigBlueBox</group>
+	<imagesize>2</imagesize>
+	<serial>LA-H-ABMKA</serial>
+	<titleid>0100E29001298000</titleid>
+	<imgcrc>F5A42AE3</imgcrc>
+	<filename>bbb-h-abmkap</filename>
+	<releasename>Has.Been.Heroes.PROPER.NSW-BigBlueBox</releasename>
+	<trimmedsize>1192320512</trimmedsize>
+	<firmware>1.0.0</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>5</id>
+	<name>Puyo Puyo Tetris</name>
+	<publisher>SEGA</publisher>
+	<region>USA</region>
+	<languages>en</languages>
+	<group>BigBlueBox</group>
+	<imagesize>2</imagesize>
+	<serial>LA-H-BAACB</serial>
+	<titleid>010073C001D5E000</titleid>
+	<imgcrc>CB850E0B</imgcrc>
+	<filename>bbb-h-baacbp</filename>
+	<releasename>Puyo.Puyo.Tetris.USA.PROPER.NSW-BigBlueBox</releasename>
+	<trimmedsize>1521964032</trimmedsize>
+	<firmware>1.0.0</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>140</id>
+	<name>The Legend of Zelda: Breath of the Wild (rev001)</name>
+	<publisher>Nintendo</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,ru,ja</languages>
+	<group>BigBlueBox</group>
+	<imagesize>16</imagesize>
+	<serial>LA-H-AAAAA</serial>
+	<titleid>01007EF00011E000</titleid>
+	<imgcrc>2A245DCC</imgcrc>
+	<filename>bbb-h-aaaaa1</filename>
+	<releasename>The.Legend.of.Zelda.Breath.of.the.Wild.v001.NSW-BigBlueBox</releasename>
+	<trimmedsize>15212446720</trimmedsize>
+	<firmware>3.0.1</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>215</id>
+	<name>The Legend of Zelda: Breath of the Wild (rev002)</name>
+	<publisher>Nintendo</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,nl,ru,ja,zh,ko</languages>
+	<group>BigBlueBox</group>
+	<imagesize>16</imagesize>
+	<serial>LA-H-AAAAA</serial>
+	<titleid>01007EF00011E000</titleid>
+	<imgcrc>689F3608</imgcrc>
+	<filename>bbb-h-aaaaa2</filename>
+	<releasename>The.Legend.of.Zelda.Breath.of.the.Wild.v002.NSW-BigBlueBox</releasename>
+	<trimmedsize>15837757440</trimmedsize>
+	<firmware>4.1.0</firmware>
+	<type>1</type>
+	<card>1</card>
+</release>
+<release>
+	<id>1103</id>
+	<name>Americas Greatest Game Shows: Wheel Of Fortune &amp; Jeopardy! [Rev 1.0.0]</name>
+	<publisher>Ubisoft</publisher>
+	<region>USA</region>
+	<languages>en,fr</languages>
+	<group>LUBE</group>
+	<imagesize>4</imagesize>
+	<serial>LA-H-APYJA</serial>
+	<titleid>010033600ADE6000 (v0) + 01006E400AE2A800 (v0)</titleid>
+	<imgcrc>09CC817A</imgcrc>
+	<filename>l-arxma</filename>
+	<releasename>Americas_Greatest_Game_Shows_Wheel_Of_Fortune_and_Jeopardy_NSW-LUBE</releasename>
+	<trimmedsize>2825182720</trimmedsize>
+	<firmware>5.1.0</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1117</id>
+	<name>Syberia 1 &amp; 2</name>
+	<publisher>Microïds</publisher>
+	<region>EUR</region>
+	<languages>en,fr,de,it,es,ru</languages>
+	<group>SUXXORS</group>
+	<imagesize>4</imagesize>
+	<serial>LA-H-AEEVA</serial>
+	<titleid>01004BB00421E000</titleid>
+	<imgcrc>811B8495</imgcrc>
+	<filename>sxs-syberia12</filename>
+	<releasename>Syberia_1_and_2_NSW-SUXXORS</releasename>
+	<trimmedsize>3342055424</trimmedsize>
+	<firmware>5.1.0</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1306</id>
+	<name>Iconoclasts</name>
+	<publisher>Bifrost Entertainment</publisher>
+	<region>USA</region>
+	<languages>en,fr,de,es,ja</languages>
+	<group>LUBE</group>
+	<imagesize>2</imagesize>
+	<serial>LA-H-ANBPA</serial>
+	<titleid>0100BC60099FE000</titleid>
+	<imgcrc>C4CC7271</imgcrc>
+	<filename>l-anbpa</filename>
+	<releasename>Iconoclasts_NSW-LUBE</releasename>
+	<trimmedsize>0</trimmedsize>
+	<firmware>6.2.0</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1434</id>
+	<name>Psikyo Shooting Library Vol. 1 [Rev 1.0.1 - 1.04]</name>
+	<publisher>CITY CONNECTION</publisher>
+	<region>JPN</region>
+	<languages>en,ja</languages>
+	<group>HR</group>
+	<imagesize>2</imagesize>
+	<serial>LA-H-AUF6A</serial>
+	<titleid>0100-FF5005B76000(v262144),-720008ED2000(v196608),-D8200D4E2000(v65536),-590009C38000(v131072),-99B00A2DC000(v196608),-A6A00894C000(v196608)</titleid>
+	<imgcrc>BC7D606C</imgcrc>
+	<filename>hr-auf6a</filename>
+	<releasename>Psikyo_Shooting_Library_Vol_1_NSW-HR</releasename>
+	<trimmedsize>1173359616</trimmedsize>
+	<firmware>8.0.1</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1690</id>
+	<name>NanPure 10000! + Puzzle No Mado [Rev 1.0 - 1.0.2]</name>
+	<publisher>SUCCESS</publisher>
+	<region>JPN</region>
+	<languages>en,fr,ja,zh</languages>
+	<group>HR</group>
+	<imagesize>2</imagesize>
+	<serial>LA-H-AWY2A</serial>
+	<titleid>0100-20500C8C8000(v65536),-A1A00C5D8000(v131072),-91700F76E000(v65536),-FF00108AE000(v0)</titleid>
+	<imgcrc>65404C12</imgcrc>
+	<filename>hr-awy2a</filename>
+	<releasename>NanPure_10000_plus_Puzzle_no_Mado_JPN_NSW-HR</releasename>
+	<trimmedsize>727566848</trimmedsize>
+	<firmware>9.1.0</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1691</id>
+	<name>Animal Crossing: New Horizons [Rev 1.0.0]</name>
+	<publisher>Nintendo</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,ru,ja,zh,ko</languages>
+	<group>VENOM</group>
+	<imagesize>8</imagesize>
+	<serial>LA-H-ACBAA</serial>
+	<titleid>01006F8002326000 (v0)</titleid>
+	<imgcrc>B40AA20E</imgcrc>
+	<filename>v-acronh</filename>
+	<releasename>Animal_Crossing_New_Horizons_NSW-VENOM</releasename>
+	<trimmedsize>7080701440</trimmedsize>
+	<firmware>9.0.1</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1706</id>
+	<name>New Super Mario Bros. U Deluxe [v1.0.0]</name>
+	<publisher>Nintendo</publisher>
+	<region>CHN</region>
+	<languages>zh</languages>
+	<group>HR</group>
+	<imagesize>4</imagesize>
+	<serial>LA-H-ADALB</serial>
+	<titleid>0100E8C00F506000 (v0)</titleid>
+	<imgcrc>BF83A2F1</imgcrc>
+	<filename>hr-adalb</filename>
+	<releasename>New_Super_Mario_Bros._U_Deluxe_CHN_READNFO_iNTERNAL_NSW-HR</releasename>
+	<trimmedsize>2639575552</trimmedsize>
+	<firmware>8.1.0</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1711</id>
+	<name>Caligula Overdose [Rev 1.00]</name>
+	<publisher>ARC SYSTEM WORKS CO.,LTD.</publisher>
+	<region>TWN</region>
+	<languages>en,ja,zh,ko</languages>
+	<group>HR</group>
+	<imagesize>8</imagesize>
+	<serial>LA-H-AQWBC</serial>
+	<titleid>010078F00CF52000 (v0)</titleid>
+	<imgcrc>09F3ACF0</imgcrc>
+	<filename>hr-aqwbc</filename>
+	<releasename>Caligula_Overdose_MULTI_NSW-HR</releasename>
+	<trimmedsize>5076072960</trimmedsize>
+	<firmware>6.2.0</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1719</id>
+	<name>Risk Of Rain 1 &amp; 2 [Rev 1.0.3,1.0.1]</name>
+	<publisher>Gearbox</publisher>
+	<region>WLD</region>
+	<languages>en,fr,de,it,es,pt,ru,ja,zh,ko</languages>
+	<group>HR</group>
+	<imagesize>4</imagesize>
+	<serial>LA-H-AVVKA</serial>
+	<titleid>0100AAA00ACBE000 (v196608) + 010076D00E4BA000 (v65536)</titleid>
+	<imgcrc>FDB41623</imgcrc>
+	<filename>hr-avvka</filename>
+	<releasename>Risk_of_Rain_1_plus_2_NSW-HR</releasename>
+	<trimmedsize>1870351872</trimmedsize>
+	<firmware>8.0.1</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+<release>
+	<id>1722</id>
+	<name>Super Neptunia RPG [Rev 1.00]</name>
+	<publisher>Compile Heart</publisher>
+	<region>TWN</region>
+	<languages>zh,ko</languages>
+	<group>HR</group>
+	<imagesize>4</imagesize>
+	<serial>LA-H-AQHCB</serial>
+	<titleid>01004B500BA28000 (v0)</titleid>
+	<imgcrc>694F7DE4</imgcrc>
+	<filename>hr-aqhcb</filename>
+	<releasename>Super_Neptunia_RPG_MULTI_NSW-HR</releasename>
+	<trimmedsize>3843832320</trimmedsize>
+	<firmware>7.0.1</firmware>
+	<type>1</type>
+	<card>2</card>
+</release>
+</releases>
