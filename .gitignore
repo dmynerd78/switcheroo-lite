@@ -198,6 +198,7 @@ dmypy.json
 cython_debug/
 
 # Project specific
+Nintendo
 Album*
 key.txt
 nswdb-games.xml
