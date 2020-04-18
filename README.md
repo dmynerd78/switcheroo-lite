@@ -1,6 +1,7 @@
 # Switcheroo Lite
 
-A fork of [nxshot](https://github.com/s1cp/nxshot) that has some improved internals and support for nswdb's titleid format
+A fork of [nxshot](https://github.com/s1cp/nxshot) that has some improved internals and support for nswdb's titleid format.
+As the name suggests, it also serves as a "Light" version of [Switcheroo](https://github.com/Tyler-A/Switcheroo) - another Nintendo Switch Album Manager but with more features
 
 ## Usage
 
@@ -30,7 +31,7 @@ optional arguments:
 - Download the repository as a [zip file](https://github.com/dmynerd78/switcheroo-lite/archive/master.zip)
 - Download/Ensure [Python 3.6+](https://www.python.org/downloads/) is installed - make sure `export to PATH` is enabled
 - Install required libraries with `pip install -r requirements.txt`
-- Extract zip folder and run the script via command line `python switcheroo_lite.py [path/to/Album/]`
+- Extract zip folder and run the script via command line `python switcheroo_lite.py [path/to/Nintendo/Album/]`
 
 ## Use of `key.txt`
 
