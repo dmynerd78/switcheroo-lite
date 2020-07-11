@@ -45,10 +45,11 @@ Open up `gameids.json` (in something other than Notepad). In "progammer terms" t
 "SCREENSHOT_ID": "GAME_NAME",
 ```
 
-Essentially, you want to add the game as a new line in between the two curly brackets. To do this, take the garbled text at the end of a screenshot/video as the first quoted value; the game name is the second value. For example, if we wanted to add "The Legend of Zelda: Breath of the Wild", we would get `F1C11A22FAEE3B82F21B330E1B786A39` from the end of the screenshot/video filename to be our key. We would then add the following line to our `gameids.json` file on a new line:
+Essentially, you want to add the game as a new line in between the two curly brackets. To do this, take the garbled text at the end of a screenshot/video as the first quoted value; the game name is the second value. For example, if we wanted to add "The Legend of Zelda: Breath of the Wild", we would get `F1C11A22FAEE3B82F21B330E1B786A39` from the end of the screenshot/video filename to be our key. If `gameids.json` already has this game, you can simply update the name that follows `F1C11A22FAEE3B82F21B330E1B786A39`. If `gameids.json` does not contain the game, then we would then add the following line to our `gameids.json` file like so:
 
 ```json
 "F1C11A22FAEE3B82F21B330E1B786A39": "The Legend of Zelda: Breath of the Wild",
 ```
 
-Note the comma at the end of the sequence. This is required.
+Note the comma at the end of the sequence. This is required.  
+Also note the program will remove any invalid characters (colon, question mark, etc.) from the final name

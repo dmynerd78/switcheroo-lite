@@ -12,7 +12,7 @@ from urllib.error import URLError
 import xml.etree.ElementTree as ET
 
 
-PROGRAM_VERSION = 0.5
+PROGRAM_VERSION = 1.0
 DECRYPT_KEY_HASH = "24e0dc62a15c11d38b622162ea2b4383"
 
 global logger
