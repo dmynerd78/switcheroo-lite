@@ -188,6 +188,11 @@ def update_nswdb(key):
     id_map = {}
     for release in root:
             screenshotid_list = release.find("titleid").text
+
+            # Ignore blank releases
+            if screenshotid_list is None:
+                continue
+
             # Remove (vXXXXX) that appear in some titleids
             screenshotid_list = re.sub(
                 r"\(v[^)]*\)", "", screenshotid_list).strip()
@@ -235,6 +240,7 @@ def check_folders(filelist, game_ids, keep_region):
     """
 
     num_transferred = 0
+    num_skipped = 0
     length = len(filelist)
 
     for mediapath in filelist:
@@ -259,14 +265,16 @@ def check_folders(filelist, game_ids, keep_region):
             "Organized", clean_filename(gameid, game_ids, keep_region))
 
         # TODO Use better output name
-        # TODO Don't copy if file already exists? Add a flag to force override?
         outputfolder.mkdir(parents=True, exist_ok=True)
-        newfile = copy(str(mediapath), str(outputfolder))
-        os.utime(newfile, (posixtimestamp, posixtimestamp))
+        if args.overwrite or not os.path.exists(outputfolder / mediapath.name):
+            newfile = copy(str(mediapath), str(outputfolder))
+            os.utime(newfile, (posixtimestamp, posixtimestamp))
+        else:
+            num_skipped += 1
 
         num_transferred += 1
 
-        logger("Organized {} of {} files.\r".format(num_transferred, length), end="")
+        logger("Organized {} of {} files ({} skipped; already exist).\r".format(num_transferred, length, num_skipped), end="")
     logger("")
 
     return num_transferred
@@ -382,6 +390,10 @@ if __name__ == "__main__":
                         "--include-regions",
                         action="store_true",
                         help="Include game region - USA, JPN, etc. - in the folder name")
+
+    parser.add_argument("--overwrite",
+                        action="store_true",
+                        help="Overwrite file if it already exists")
 
     parser.add_argument("--no-videos",
                         action="store_true",
