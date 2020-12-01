@@ -1,19 +1,18 @@
 # Switcheroo Lite
 
 A fork of [nxshot](https://github.com/s1cp/nxshot) that has some improved internals and support for nswdb's titleid format.
-As the name suggests, it also serves as a "Light" version of [Switcheroo](https://github.com/Tyler-A/Switcheroo) - another Nintendo Switch Album Manager but with more features
 
 ## Usage
 
-This can also be obtained py running the python scripe with the `-h` flag
+This can also be obtained py running the python script with the `--help` flag
 
 ```text
-usage: switcheroo_lite.py [-h] [--version] [-u] [-r] [--no-videos] [--no-screenshots] [-q] FILEPATH
+usage: switcheroo_lite.py [-h] [--version] [-u] [-r] [--overwrite] [--no-videos] [--no-screenshots] [-q] ALBUMPATH
 
 Automatically organize and timestamp your Nintendo Switch screenshots and clips
 
 positional arguments:
-  FILEPATH              'Nintendo/Album' folder from your SD card.
+  ALBUMPATH             'Nintendo/Album' folder from your SD card.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -21,6 +20,7 @@ optional arguments:
   -u, --update-cache    Update cached games list via online database. Requires key.txt to be present
   -r, --include-regions
                         Include game region - USA, JPN, etc. - in the folder name
+  --overwrite           Overwrite file if it already exists
   --no-videos           Do not organize video (.mp4) files
   --no-screenshots      Do not organize image (.jpg) files
   -q, --quiet           Don't print standard out to console
@@ -51,5 +51,5 @@ Essentially, you want to add the game as a new line in between the two curly bra
 "F1C11A22FAEE3B82F21B330E1B786A39": "The Legend of Zelda: Breath of the Wild",
 ```
 
-Note the comma at the end of the sequence. This is required.  
-Also note the program will remove any invalid characters (colon, question mark, etc.) from the final name
+The comma at the end of the sequence is required.  
+**Note:** the program will remove any invalid characters (colon, question mark, etc.) from the final name
