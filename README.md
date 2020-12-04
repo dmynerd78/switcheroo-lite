@@ -1,6 +1,10 @@
 # Switcheroo Lite
 
+![Organized demo](/dev/albums.jpg)
+
 A fork of [nxshot](https://github.com/s1cp/nxshot) that has some improved internals and support for nswdb's titleid format.
+
+> _**NOTE:** As of [version 11.0.0](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22525/~/nintendo-switch-system-updates-and-change-history#v1100), you do not necessarily need to use this program as Nintendo does this automatically when connecting your switch to a computer via `System Settings > Data Management > Manage Screenshots and Videos > Copy to a Computer via USB Connection`_
 
 ## Usage
 
